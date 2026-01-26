@@ -71,6 +71,7 @@ interface AvgResult {
 }
 
 // --- КОНФИГУРАЦИЯ ---
+
 const config = configDotenv().parsed!;
 const BOT_TOKEN = config.BOT_TOKEN; 
 const WEBAPP_URL = config.WEBAPP_URL; 
